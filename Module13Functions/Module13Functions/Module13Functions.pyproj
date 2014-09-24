@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="helpers.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Module13Functions.py" />
   </ItemGroup>
   <PropertyGroup>

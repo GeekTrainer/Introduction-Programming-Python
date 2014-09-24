@@ -1,19 +1,10 @@
+import helpers
+
 #Define this function
 #When someone calls this function, execute this code
 def main():
-    names = getNames()
-    printNames(names)
-    return
-
-def getNames():
-    names = ['Christopher', 'Susan', 'Danny']
-    newName = input('Enter last guest: ')
-    names.append(newName)
-    return names
-
-def printNames(names):
-    for name in names:
-        print(name)
+    names = helpers.getNames()
+    helpers.printNames(names)
     return
 
 #Execute the main function
